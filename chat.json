@@ -1,0 +1,20 @@
+{"user":"hello","jarvis":"ERROR: http://localhost:11434/api/generate","raw":"ERROR: http://localhost:11434/api/generate"}
+{"user":"hi","jarvis":"ERROR: Server returned HTTP response code: 400 for URL: http://localhost:11434/api/generate","raw":"ERROR: Server returned HTTP response code: 400 for URL: http://localhost:11434/api/generate"}
+{"user":"hi","jarvis":"ERROR: No content field","raw":"ERROR: No content field"}
+{"user":"hi","jarvis":"`echo Hello! How can I assist you today?`","raw":"`echo Hello! How can I assist you today?`"}
+{"user":"who are you?","jarvis":"`echo I am JARVIS, your virtual assistant.`","raw":"`echo I am JARVIS, your virtual assistant.`"}
+{"user":"Hi","jarvis":"echo Hi","raw":"echo Hi"}
+{"user":"Who are you?","jarvis":"echo I am JARVIS, your virtual assistant.","raw":"echo I am JARVIS, your virtual assistant."}
+{"user":"what are the mistakes in this statment","jarvis":"echo This statement has a typo in the word \"statement\".","raw":"echo This statement has a typo in the word \"statement\"."}
+{"user":"what are the mistakes in this statement.","jarvis":"echo This statement has a typo in the word \"statement\".","raw":"echo This statement has a typo in the word \"statement\"."}
+{"user":"what are the mistakes in this sentence.","jarvis":"echo This sentence has a typo in the word \"sentence.\"","raw":"echo This sentence has a typo in the word \"sentence.\""}
+{"user":"what are the grammatical and not typing errors in this statement.","jarvis":"echo This statement has a grammatical error: it should end with a question mark instead of a period.","raw":"echo This statement has a grammatical error: it should end with a question mark instead of a period."}
+{"user":"Who are you?","jarvis":"echo I am JARVIS, your virtual assistant.","raw":"echo I am JARVIS, your virtual assistant."}
+{"user":"What have I asked you before?","jarvis":"SELECT * FROM conversation_history WHERE user_id = current_user ORDER BY timestamp DESC;","raw":"SELECT * FROM conversation_history WHERE user_id = current_user ORDER BY timestamp DESC;"}
+{"user":"what was the exact previous question?","jarvis":"SELECT question FROM conversation_history WHERE user_id = current_user ORDER BY timestamp DESC LIMIT 1;","raw":"SELECT question FROM conversation_history WHERE user_id = current_user ORDER BY timestamp DESC LIMIT 1;"}
+{"user":"open notepad","jarvis":"notepad","raw":"notepad"}
+{"user":"open chrome","jarvis":"start chrome","raw":"start chrome"}
+{"user":"search f1 on chrome","jarvis":"start chrome \"https://www.google.com/search?q=f1\"","raw":"start chrome \"https://www.google.com/search?q=f1\""}
+{"user":"who owns hot wheels?","jarvis":"SELECT owner FROM companies WHERE company_name = 'Hot Wheels';","raw":"SELECT owner FROM companies WHERE company_name = 'Hot Wheels';"}
+{"user":"search who owns hot wheels?","jarvis":"start chrome \"https://www.google.com/search?q=who+owns+hot+wheels\"","raw":"start chrome \"https://www.google.com/search?q=who+owns+hot+wheels\""}
+{"user":"/bye","jarvis":"exit","raw":"exit"}

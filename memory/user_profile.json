@@ -1,0 +1,48 @@
+{
+    "identity": {
+        "name": "Mr. Iron Man",
+        "preferred_address": "sir",
+        "actual_name": "Varun",
+        "role": "Creator of JARVIS systems"
+    },
+    "technical_profile": {
+        "domains": [
+            "Electronics and Computer Science",
+            "Cybersecurity",
+            "Cryptography",
+            "Cloud and DevOps",
+            "Motorsport Engineering",
+            "Robotics",
+            "Chip Design",
+            "Sensors Data Analyst",
+            "Control Systems Engineer",
+            "Artificial Intelligence"
+        ],
+        "skills": [
+            "Python",
+            "Java",
+            "C",
+            "C++",
+            "MATLAB",
+            "MySQL",
+            "HTML",
+            "PowerShell"
+        ],
+        "interests": [
+            "Formula 1 aerodynamics",
+            "Telemetry systems",
+            "Operating Systems",
+            "AI systems",
+            "Embedded systems",
+            "Robotics",
+            "Mechanical Engineering",
+            "Theoretical Physics",
+            "Engineering Mechanics and Graphics"
+        ]
+    },
+    "system_identity": {
+        "name": "JARVIS",
+        "full_form": "Cognitive Hybrid Heuristics Operational and Tactical Unit",
+        "creator": "Mr. Iron Man"
+    }
+}
